@@ -1,0 +1,8 @@
+﻿  injecteurServer.cpp
+  comClientServer.cpp
+c:\users\pm\documents\projets\network_programming\remoteaccesstrojan\comclientserver.cpp(130): warning C4244: '=': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+c:\users\pm\documents\projets\network_programming\remoteaccesstrojan\comclientserver.cpp(132): warning C4244: '=': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+c:\users\pm\documents\projets\network_programming\remoteaccesstrojan\comclientserver.cpp(147): warning C4018: '<': signed/unsigned mismatch
+c:\users\pm\documents\projets\network_programming\remoteaccesstrojan\comclientserver.cpp(195): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  injecteurServer.vcxproj -> C:\Users\PM\Documents\projets\network_programming\remoteAccessTrojan\Debug\injecteurServer.exe
