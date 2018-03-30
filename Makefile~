@@ -1,0 +1,12 @@
+GCC=g++
+OPT= -std=c++11
+DEST=../bin
+
+injecteurClient: comClientServer.o injecteurClient.o
+	$(GCC) $(OPT) injecteurClient.o comClientServer.o -o $(DEST)/injecteurClient
+
+injecteurClient.o: injecteurClient.cpp comClientServer.h
+	$(GCC) $(OPT) -c injecteurClient.cpp -o injecteurClient.o
+
+comClientServer.o: comClientServer.cpp comClientServer.h
+	$(GCC) $(OPT) -c comClientServer.cpp -o comClientServer.o

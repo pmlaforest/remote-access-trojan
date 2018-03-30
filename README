@@ -1,0 +1,7 @@
+Projet de Conception du cours de réseaux d’ordinateurs 
+Pour exécuter les deux programmes injecteurs, lancez dans l’ordre injecteurServer.exe puis injecteurClient.exe avec le cmd.
+Pour exécuter les deux programmes RAT, lancez tout d’abord le RATClient.exe suivi du RATServer.exe avec le cmd.
+Le dossier contient une image pour tester les commandes get et put. 
+Toutes les commandes demandées ont été implémentés. Cependant, je n’ai pas réussi à mettre l’injecteur client en release parce qu’en faisant ce changement, les autres projets de la solution passaient aussi en mode release.
+Important : inclure le dossier de projet dans les #includes (projetConception) du projet. Sinon, Visual Studio ne trouvera pas les headers comClientServer.h et RATFonctions.h.
+Pierre-Marc Laforest

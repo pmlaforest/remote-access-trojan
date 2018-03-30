@@ -3,8 +3,10 @@ RATFonctions.cpp - prototype de fonctions RATS pour le client et le serveur
 écrit par: Pierre-Marc Laforest
 Date: 2017-03-24
 **********************************************************************/
+#ifndef RATFONCTIONS_H
+#define RATFONCTIONS_H
 
-#include <winsock.h>
+#include "comClientServer.h"
 
 // RATServer fonctions
 void RATServer_initComAvecClient(char *szServer, short nPort, SOCKET* remoteSocketServerPtr);
@@ -22,3 +24,5 @@ void RATClient_execStart(char *arguments, SOCKET remoteSocketClient);
 //Autres
 void separeCommandeEtArguments(char *commandeBuf, int lengthOfCommandeBuf, char *argumentsBuf);
 void ajoutNoCopieNomProgramme(char *nomDuProgramme, int noCopie);
+
+#endif
